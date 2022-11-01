@@ -17,7 +17,7 @@ rm /tmp/tempfile_1
 #!/bin/bash
 
 time nice -20 ./nice_1.sh &
-time ./nice_2.sh 
+time ./nice_2.sh &
 ```
 #### 3. Реузльтатом выполнения скрипта является время выполнения первого и второго скрипта:
 ```console
